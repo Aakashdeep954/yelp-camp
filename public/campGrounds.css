@@ -1,0 +1,36 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      border: none;
+}
+body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+      background-color: #d7d0d0;
+}
+
+a {
+      text-decoration: none;
+      color: white;
+}
+
+.nav-bar {
+      height: 50px;
+      background-color: black;
+      position: sticky;
+      top: 0;
+}
+.nav-bar__items-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+}
+
+.nav-bar__item {
+      text-decoration: none;
+      color: white;
+      margin: 10px;
+}
