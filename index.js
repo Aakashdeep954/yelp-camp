@@ -76,7 +76,8 @@ app.use((error, request, response, next) => {
       response.render("error", { error });
 });
 
-app.listen(3000, () => {
+const port = process.env.port || 3000;
+app.listen(port, () => {
       console.log("connected");
 });
 
