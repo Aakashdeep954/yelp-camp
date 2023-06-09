@@ -1,17 +1,22 @@
 # yelp-camp
 
 # tech stack
-1. html
-2. css
-3. javascript
-4. express
-5. mongo
-6. mongoose
-7. nodejs
-8. flash
-9. ejs
- 10. session
- 11. passport
+1. @mapbox/mapbox-sdk
+2. cloudinary
+3. connect-flash 
+4. cookie-parser
+5. ejs
+6. ejs-mate
+7. express
+8. express-session
+9. method-override
+10. mongoose
+11. multer
+12. multer-storage-cloudinary
+13. passport
+14. passport-local
+15. passport-local-mongoose
+
 
 # functionalities
 1. show all campgrounds on campgrounds route
